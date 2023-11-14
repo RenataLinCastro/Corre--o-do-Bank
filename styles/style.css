@@ -1,0 +1,39 @@
+:root{
+    --preto: #202420;
+    --vermelho: #ba2d2d;
+    --laranja:#f2511b;
+    --laranjaTransparente:#f2511b55;
+    --orange:#f2861b;
+    --amarelo:#c7c730;
+    --branco:white;
+}
+
+header, footer{
+    background-color: var(--vermelho);
+}
+.nav-link, footer{
+    color: var(--branco)!important;
+}
+.btn{
+    color: var(--branco)!important;
+    border: var(--branco) 1px solid !important;
+}
+.btn:hover{
+    color: var(--branco)!important;
+}
+
+#bannerPrimeiroMetodo{
+    height: 500px;
+    background-image: url(../images/banner.jpg);
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#mensagemBanner{
+    width: 300px;
+    opacity: 0,5;
+    padding:3rem;
+    background-color: var(--laranjaTransparente);
+    color: var(--branco);
+}
